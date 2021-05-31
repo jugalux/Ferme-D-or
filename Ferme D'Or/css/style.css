@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.barreNavigation{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 3px 3px #c8bfbf;
+    padding-top: 20px;
+}
+.lienNavigation{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    color: rgb(70, 4, 4);
+    box-shadow: 2px 3px 3px rgb(70, 4, 4);
+}
+.lienNavigation:hover{
+    color: white;
+    background-color: rgb(70, 4, 4);
+}
+.banniere{
+    background-color: rgb(70, 4, 4);
+    height: auto;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+}
+.boxDe3box{
+    display: flex;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+.box{
+    display: grid;
+}
+.lienPage{
+    background-color: rgb(70, 4, 4);
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+
+}
+.textBox{
+    width: 900px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 3px rgb(70, 4, 4);
+}
+.imagesOffre{
+    display: flex;
+    justify-content: space-around;
+}
+.imgOffre{
+    border-radius: 200px;
+}
+
+
+
+.boxAutrePage{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+.boxAutrePage:hover{
+    background-color: rgb(248, 209, 209);
+    border-radius: 20px;
+}
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    background-color: rgb(70, 4, 4);
+    padding: 20px;
+    padding-left: 35%;
+}
